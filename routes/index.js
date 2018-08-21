@@ -4,4 +4,5 @@ module.exports = function (app) {
     res.redirect('/posts')
   })
   app.use('/posts', require('./posts'))
+  app.use('/signup', require('./signup'))
 }
